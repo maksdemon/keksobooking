@@ -13,4 +13,8 @@ console.log(random(5,10));
 let lengthword = function (text,sign){
 return text.length<=sign ? true : false;
 }
+
+//let lengthword = (text, sign) => text.length <= sign;
+
+
 console.log(lengthword('Тестовое сообщение' ,10));
